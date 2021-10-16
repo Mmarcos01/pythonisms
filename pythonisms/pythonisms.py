@@ -20,7 +20,6 @@ class LinkedList:
     def __eq__(self, other):
         return list(self) == list(other)
 
-
 class Node:
     def __init__(self, value, next = None):
         self.value = value
